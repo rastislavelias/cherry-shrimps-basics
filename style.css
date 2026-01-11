@@ -134,11 +134,11 @@ button.menu-toggle:hover {
   align-items: center;
 }
 
-button.menu-toggle:not([aria-expanded="true"]) .icon-open {
+.menu-toggle[aria-expanded="false"] .icon-open {
   display: flex;
 }
 
-button.menu-toggle[aria-expanded="true"] .icon-close {
+.menu-toggle[aria-expanded="true"] .icon-close {
   display: flex;
 }
 
