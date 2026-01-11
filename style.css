@@ -175,8 +175,10 @@ section img {
   aspect-ratio: 16 / 9;
 }
 
-#summary img {
+section#summary img {
   object-fit: contain;
+  max-width: 240px;
+  margin: 2rem auto 0;
 }
 
 /* Footer */
